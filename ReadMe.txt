@@ -1,0 +1,3 @@
+This is a part of speech tagger that tags words based on their context. The default is to use the tags of the two previous words but this can be set to any number.
+Use: create an instance of a POSTagger object with a training set in .conllu format as its input. Then it can be tested on a tagged file in .conllu format or used to tag a plaintext file or a list of words.
+Gets around 90% accuracy for most languages
